@@ -1,0 +1,16 @@
+[visualization]
+export = true
+interval = 1
+
+        [[visualize_agent]]
+        name = "Prey"
+
+        [[visualize_agent]]
+        name = "Predator"
+
+[statistics]
+print_step_info = true
+
+[simulation]
+min_bound = 0
+max_bound = 50
